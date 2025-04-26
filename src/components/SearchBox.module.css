@@ -28,3 +28,9 @@
   color: #e0e0e0;
   cursor: pointer;
 }
+
+@media (max-width:768px){
+  .search input{
+    width: 100%;
+  }
+}

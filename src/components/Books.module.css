@@ -19,3 +19,15 @@
   font-size: 1.2rem;
 }
 
+@media (max-width:768px){
+  .container{
+    flex-direction: column-reverse;
+  }
+  .cards{
+    min-height: auto;
+  }
+  .favorite{
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
